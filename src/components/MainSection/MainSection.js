@@ -38,7 +38,7 @@ const MainSection = () => {
                 <h1 className='title'>
                     Under Construction
                 </h1>
-                <p>loremEnim anim cupidatat magna eiusmod occaecat sint mollit proident ullamco et qui incididunt ea. Veniam sint anim duis mollit laboris qui. Cupidatat esse mollit magna occaecat aute aliqua cupidatat.</p>
+                <p>Welcome to codestation, where innovation meets code. We are a dynamic software development company dedicated to crafting cutting-edge solutions that redefine industries. With a passion for pushing technological boundaries. Our team of seasoned developers and designers are committed to creating seamless, user-centric experiences that drive success for businesses large and small.</p>
 
                 <div className='news-letter'>
                     <input type='email' placeholder='Your email address' />

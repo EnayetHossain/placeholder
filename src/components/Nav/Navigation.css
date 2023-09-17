@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 3em;
+    height: 3em;
+}
+
+.email-address {
+    color: rgb(var(--accent-color))
+}

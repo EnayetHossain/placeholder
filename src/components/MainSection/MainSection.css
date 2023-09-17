@@ -1,0 +1,122 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 8em 0.5em;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    flex-direction: column;
+}
+
+.socials li a {
+    font-size: 3rem;
+    color: rgb(var(--secondary-color));
+}
+
+.main-content {
+    margin-top: 6em;
+    position: absolute;
+    left: 18%;
+    top: 0%;
+}
+
+.main-content p {
+    font-weight: lighter;
+    word-wrap: break-word;
+    max-width: 50rem;
+    color: rgba(var(--secondary-color), 0.8);
+    margin: 1.1em 0;
+    line-height: 1.4;
+}
+
+.news-letter {
+    background-color: rgb(var(--secondary-color));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+
+.news-letter input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 0 0.5em;
+    color: rgb(var(--primary-color));
+}
+
+.news-letter input::placeholder {
+    color: rgba(var(--primary-color), 0.7);
+}
+
+.news-letter .btn {
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(var(--accent-color));
+    width: 3em;
+    font-size: 1.6rem;
+    color: rgb(var(--primary-color));
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-down {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(var(--secondary-color));
+}
+
+.count-time {
+    margin: 1em 0;
+}
+
+.time {
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .main-container {
+        flex-direction: column-reverse;
+        position: static;
+    }
+
+    .socials ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .socials ul li {
+        margin: 0 1em;
+    }
+
+    .count-down {
+        flex-direction: row;
+        top: 10%;
+    }
+
+    .main-content {
+        position: static;
+        margin: 4em 0;
+    }
+
+    .count-time {
+        padding: 0 0.7em;
+    }
+
+    .time {
+        font-size: 3rem
+    }
+}
